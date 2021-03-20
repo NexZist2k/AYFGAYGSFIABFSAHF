@@ -18,13 +18,12 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters
 import urllib.request
 
-LINK = 'https://ulkabo.github.io/bot-15-15/data/'
+LINK = 'https://nexzist2k.github.io/AYFGAYGSFIABFSAHF/'
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
 logger = logging.getLogger(__name__)
-#1648362095:AAG0nWEb5KhUNKI2h8e_2CGpJRakyYGLtLw
 
 def read_content_from_url(file):
   url = LINK + file
@@ -162,7 +161,7 @@ def mist_dlia_vstypnukiv (update, context):
 
 def main():
 
-    updater = Updater("1622026876:AAGSPO1cWixVtEb0Zw8PKJxNa-KfQUh7818", use_context=True)
+    updater = Updater("1648362095:AAG0nWEb5KhUNKI2h8e_2CGpJRakyYGLtLw", use_context=True)
 
     dp = updater.dispatcher
 
